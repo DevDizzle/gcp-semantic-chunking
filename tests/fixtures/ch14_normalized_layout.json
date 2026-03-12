@@ -1,0 +1,44 @@
+[
+  {
+    "text": "14. Graph Algorithms",
+    "block_type": "heading",
+    "page_num": 1,
+    "level": 1
+  },
+  {
+    "text": "Graphs are ubiquitous in computer science.",
+    "block_type": "paragraph",
+    "page_num": 1,
+    "level": 0
+  },
+  {
+    "text": "14.1 Breadth-First Search",
+    "block_type": "heading",
+    "page_num": 1,
+    "level": 2
+  },
+  {
+    "text": "Breadth-first search (BFS) is one of the simplest algorithms for searching a graph.",
+    "block_type": "paragraph",
+    "page_num": 1,
+    "level": 0
+  },
+  {
+    "text": "Algorithm BFS(G, s)",
+    "block_type": "code",
+    "page_num": 2,
+    "level": 0
+  },
+  {
+    "text": "Table 14.1: Queue trace for BFS",
+    "block_type": "table",
+    "page_num": 2,
+    "level": 0
+  },
+  {
+    "text": "The queue ensures we visit nodes in order of their distance from the source.",
+    "block_type": "paragraph",
+    "page_num": 2,
+    "level": 0
+  }
+]

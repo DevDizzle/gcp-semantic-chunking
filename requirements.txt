@@ -1,0 +1,12 @@
+pydantic-settings
+fastapi
+uvicorn
+pydantic
+google-cloud-documentai
+google-cloud-storage
+google-cloud-firestore
+google-cloud-aiplatform
+google-genai
+streamlit
+requests
+pytest
