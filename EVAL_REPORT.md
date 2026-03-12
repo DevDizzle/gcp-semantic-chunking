@@ -2,7 +2,12 @@
 
 This report evaluates the performance of **Semantic Chunking** versus **Naive Chunking** using a production Retrieval-Augmented Generation (RAG) pipeline built on Google Cloud (Document AI Layout Parser, Vertex AI Vector Search, and Gemini 3.1 Flash-Lite).
 
-The queries below target complex, structured textbook data—specifically algorithms, theorems, and tables—where document layout directly dictates meaning.
+## Source Material Context
+The evaluation was conducted over **Chapter 14 ("Graph Algorithms")** from the textbook *"Data Structures and Algorithms in Python"*, a 77-page document containing dense academic structures such as complex algorithms (e.g., Dijkstra's, Kruskal's), formal propositions, multi-part figures, and tabular comparisons. 
+
+This specific type of academic material represents a worst-case scenario for naive chunking strategies because its meaning relies heavily on structural formatting rather than just paragraph continuity.
+
+The queries below target these complex, structured textbook elements—specifically algorithms, theorems, and tables—where document layout directly dictates meaning.
 
 ---
 
